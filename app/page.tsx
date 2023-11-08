@@ -1,8 +1,7 @@
-import { prisma } from '@/prisma'
-import SearchInput from './components/search-input'
-import UserTable from './components/user-table'
 import { Suspense } from 'react'
 import Loading from './components/loading'
+import SearchInput from './components/search-input'
+import UserTable from './components/user-table'
 
 export default async function Users({
   searchParams,
